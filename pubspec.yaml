@@ -13,8 +13,9 @@ dependencies:
     sdk: flutter
   http: ^1.2.2
   path: ^1.8.2
-  persist_notifier: ^1.1.1
+  persist_notifier: ^1.1.2
   sqflite: ^2.1.0+1
+  sqflite_common_ffi: ^2.3.5
   timezone: ^0.10.0
   tuple: ^2.0.1
 

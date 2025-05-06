@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "C:\\Developer\\flutter\\packages\\flutter_tools\\gradle\\src\\main\\groovy\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\grayb\\AppData\\Local\\Android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "E:\\projects\\flutter\\flutter-nasa-apis\\example\\android\\app\\.cxx\\Debug\\19u5d1y2\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\grayb\\AppData\\Local\\Android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "E:\\projects\\flutter\\flutter-nasa-apis\\example\\android\\app\\.cxx\\Debug\\19u5d1y2\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

@@ -1,13 +1,15 @@
 // Copyright (C) 2022 by Voidari LLC or its subsidiaries.
 library nasa_apis;
 
+import 'dart:io';
+
 import 'package:nasa_apis/src/apod/apod_item_model.dart';
 import 'package:nasa_apis/src/mars_rovers/day_info_item_model.dart';
 import 'package:nasa_apis/src/mars_rovers/manifest_model.dart';
 import 'package:nasa_apis/src/mars_rovers/photo_item_model.dart';
 import 'package:nasa_apis/src/models/base_model.dart';
 import 'package:path/path.dart';
-import 'package:sqflite/sqflite.dart';
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 /// The manager of the database initializations. Provides the reference for
 /// the database creation, connections, and utilities.
@@ -20,6 +22,11 @@ class DatabaseManager {
   /// The init function for the database manager, creating the database
   /// and the connection.
   static Future<void> init({bool isTest = false}) async {
+    if (Platform.isWindows || Platform.isLinux) {
+      // Initialize FFI
+      sqfliteFfiInit();
+      databaseFactory = databaseFactoryFfi;
+    }
     _database = await openDatabase(
       isTest
           ? inMemoryDatabasePath
