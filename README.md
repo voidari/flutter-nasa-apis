@@ -75,13 +75,13 @@ List<ApodItem> items = await getCategory(category: "example");
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/voidari/flutter_nasa_apis.svg?style=for-the-badge
-[contributors-url]: https://github.com/voidari/flutter_nasa_apis/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/voidari/flutter_nasa_apis.svg?style=for-the-badge
-[forks-url]: https://github.com/voidari/flutter_nasa_apis/network/members
-[stars-shield]: https://img.shields.io/github/stars/voidari/flutter_nasa_apis.svg?style=for-the-badge
-[stars-url]: https://github.com/voidari/flutter_nasa_apis/stargazers
-[issues-shield]: https://img.shields.io/github/issues/voidari/flutter_nasa_apis.svg?style=for-the-badge
-[issues-url]: https://github.com/voidari/flutter_nasa_apis/issues
-[license-shield]: https://img.shields.io/github/license/voidari/flutter_nasa_apis.svg?style=for-the-badge
-[license-url]: https://github.com/voidari/flutter_nasa_apis/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/voidari/flutter-nasa-apis.svg?style=for-the-badge
+[contributors-url]: https://github.com/voidari/flutter-nasa-apis/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/voidari/flutter-nasa-apis.svg?style=for-the-badge
+[forks-url]: https://github.com/voidari/flutter-nasa-apis/network/members
+[stars-shield]: https://img.shields.io/github/stars/voidari/flutter-nasa-apis.svg?style=for-the-badge
+[stars-url]: https://github.com/voidari/flutter-nasa-apis/stargazers
+[issues-shield]: https://img.shields.io/github/issues/voidari/flutter-nasa-apis.svg?style=for-the-badge
+[issues-url]: https://github.com/voidari/flutter-nasa-apis/issues
+[license-shield]: https://img.shields.io/github/license/voidari/flutter-nasa-apis.svg?style=for-the-badge
+[license-url]: https://github.com/voidari/flutter-nasa-apis/blob/main/LICENSE
