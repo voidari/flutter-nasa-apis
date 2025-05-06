@@ -1,3 +1,8 @@
+## 0.0.7
+
+* Updated all libraries to the latest available and compatable.
+* Rename the repo to flutter-nasa-apis
+
 ## 0.0.6
 
 * Add function to get previous and next day with photos given a list of rovers.
